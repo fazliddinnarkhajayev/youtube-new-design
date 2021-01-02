@@ -1,0 +1,113 @@
+.food{
+padding-top: 77px;
+}
+
+.food__title{
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
+  margin: 10px 0 34px 80px;
+
+
+  &::before{
+    position: absolute;
+    top: -10px;
+    left: -70px;
+    content: "";
+    width: 50px;
+    height: 55px;
+    background-image: url("../img/food.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+.food-list{
+ padding: 0;
+ padding-left: 10px;
+ margin: 0;
+ list-style-type: none;
+ display: flex;
+ align-items: center;
+ overflow: hidden;
+}
+.food-item{
+position: relative;
+
+&:not(:first-child){
+  margin-left: 40px;
+}
+}
+.food-item-img{
+display: block;
+max-width: 255px;
+}
+.food-item-span{
+  background: #000000;
+  opacity: 0.3;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 3px 9px;
+  position: absolute;
+  bottom: 68px;
+  right: 10px;
+}
+.food__item-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202C;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.food__span{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+  color: #C2C2C2;
+}
+.food__span-day{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+  color: #C2C2C2;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.food__span-day{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+  color: #C2C2C2;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.food__span-name{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+  color: #C2C2C2;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.food__span-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
