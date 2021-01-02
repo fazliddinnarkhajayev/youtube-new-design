@@ -121,7 +121,7 @@
          <template class="barlie-template">
           <li class="barlie-item">
             <img class="barlie-item-img" src="img/video-img-1.png" alt="rasm" width="250" height="150" srcset="img/video-img-1.png 1x, img/video-img-1@2x.png 2x">
-            <span class="barlie-item-span"><time>4:15</time></span>
+            <span class="barlie-item-span"><time class="barlie__time">4:15</time></span>
             <h3 class="barlie__item-title">A Brief History Of Creation</h3>
            <div class="barlie__span-wrapper">
             <span class="barlie__span">80k views</span>
@@ -130,55 +130,26 @@
            </div>
           </li>
          </template>
-
-
         </ul>
       </div>
     </section>
+
     <section class="recommend">
      <div class="recommend__box">
        <h2 class="recommend__title">Recommended</h2>
        <ul class="recommend__list">
-         <li class="recommend__item">
-           <img class="recommend__img" src="img/recommend-img-1.png" alt="rasm" width="540" height="250" src="img/recommend-img-1.png 1x, img/recommend-img-1@2x.png 2x">
-            <span class="recommend__item-span"><time>3:40</time></span>
-             <h3 class="recommend__item-title">Dude You Re Getting A Telescope</h3>
-             <div class="recommend__span-wrapper">
-               <span class="recommend__span">34k views</span>
-               <span class="recommend__span-month">5 months ago</span>
-               <span class="recommend__span-name">Gussie French</span>
-             </div>
-         </li>
-         <li class="recommend__item">
-           <img class="recommend__img" src="img/recommend-img-1.png" alt="rasm" width="540" height="250" src="img/recommend-img-1.png 1x, img/recommend-img-1@2x.png 2x">
-            <span class="recommend__item-span"><time>3:40</time></span>
-             <h3 class="recommend__item-title">Dude You Re Getting A Telescope</h3>
-             <div class="recommend__span-wrapper">
-               <span class="recommend__span">34k views</span>
-               <span class="recommend__span-month">5 months ago</span>
-               <span class="recommend__span-name">Gussie French</span>
-             </div>
-         </li>
-         <li class="recommend__item">
-           <img class="recommend__img" src="img/recommend-img-1.png" alt="rasm" width="540" height="250" src="img/recommend-img-1.png 1x, img/recommend-img-1@2x.png 2x">
-            <span class="recommend__item-span"><time>3:40</time></span>
-             <h3 class="recommend__item-title">Dude You Re Getting A Telescope</h3>
-             <div class="recommend__span-wrapper">
-               <span class="recommend__span">34k views</span>
-               <span class="recommend__span-month">5 months ago</span>
-               <span class="recommend__span-name">Gussie French</span>
-             </div>
-         </li>
-         <li class="recommend__item">
-           <img class="recommend__img" src="img/recommend-img-1.png" alt="rasm" width="540" height="250" src="img/recommend-img-1.png 1x, img/recommend-img-1@2x.png 2x">
-            <span class="recommend__item-span"><time>3:40</time></span>
-             <h3 class="recommend__item-title">Dude You Re Getting A Telescope</h3>
-             <div class="recommend__span-wrapper">
-               <span class="recommend__span">34k views</span>
-               <span class="recommend__span-month">5 months ago</span>
-               <span class="recommend__span-name">Gussie French</span>
-             </div>
-         </li>
+        <template class='recommend__template'>
+          <li class="recommend__item">
+            <img class="recommend__img" src="img/recommend-img-1.png" alt="rasm" width="540" height="250" src="img/recommend-img-1.png 1x, img/recommend-img-1@2x.png 2x">
+             <span class="recommend__item-span"><time class="recommend__time">3:40</time></span>
+              <h3 class="recommend__item-title">Dude You Re Getting A Telescope</h3>
+              <div class="recommend__span-wrapper">
+                <span class="recommend__span">34k views</span>
+                <span class="recommend__span-month">5 months ago</span>
+                <span class="recommend__span-name">Gussie French</span>
+              </div>
+          </li>
+        </template>
 
        </ul>
      </div>
@@ -186,10 +157,11 @@
     <section class="food">
       <div class="food__box">
         <h2 class="food__title">Food & Drink</h2>
-        <ul class="food-list">
+        <ul class="food__list">
+         <template class="food__template">
           <li class="food-item">
             <img class="food-item-img" src="img/food-img-1.png" alt="rasm" width="250" height="150" src="img/food-img-1.png 1x, img/food-img-1.png@2x.png 2x">
-            <span class="food-item-span"><time>4:15</time></span>
+            <span class="food-item-span"><time class="food__time">4:15</time></span>
             <h3 class="food__item-title">Astronomy Or Astrology</h3>
           <div class="food__span-wrapper">
             <span class="food__span">240k views</span>
@@ -197,6 +169,7 @@
             <span class="food__span-name">Food & Drink</span>
           </div>
           </li>
+         </template>
           </ul>
           </div>
     </section>

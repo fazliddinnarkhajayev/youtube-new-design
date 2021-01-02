@@ -786,7 +786,7 @@ template {
   color: #FFFFFF;
   padding: 3px 9px;
   position: absolute;
-  bottom: 68px;
+  bottom: 58px;
   right: 10px;
 }
 
@@ -976,7 +976,7 @@ template {
   background-position: center center;
 }
 
-.food-list {
+.food__list {
   padding: 0;
   padding-left: 10px;
   margin: 0;
